@@ -169,6 +169,7 @@ body {
     flex: 1;
     min-width: 400px;
     text-align: center;
+    margin-top: 50px;
 }
 
 .image-wrapper img {
@@ -176,22 +177,31 @@ body {
     height: auto;
     transform: scale(1.02);
     object-fit: contain;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 .text-block {
     flex: 1;
     min-width: 400px;
     text-align: left;
+    position: relative;
 }
 
 .future-section .text-block img {
     width: 550px;
     height: auto;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 90px auto;
     display: block;
-    padding-right: 80px;
+    padding-left: 0px;
 }
-
+.vectors {
+   padding-right: 50%;
+   width: 700px;
+   position: absolute;
+   top: -139px;
+   left: -100px;
+}
 .future-section .text-block h2 {
     font-size: 35px;
     justify-content: center;
